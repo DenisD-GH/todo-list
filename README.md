@@ -8,10 +8,10 @@ REST API для управления задачами (TODO-лист).
 1. База данных подключается через переменную окружения  
 DATABASE_URL=postgres://username:password@localhost:5432/postgres  
 Где:  
-    username — имя пользователя PostgreSQL.  
-    password — пароль.  
-    localhost:5432 — хост и порт PostgreSQL.  
-    postgres — имя базы данных.  
+-   username — имя пользователя PostgreSQL.  
+-   password — пароль.  
+-   localhost:5432 — хост и порт PostgreSQL.  
+-   postgres — имя базы данных.  
 
 На linux и macOS в терминале:  
 export DATABASE_URL="postgres://username:password@localhost:5432/postgres"  
