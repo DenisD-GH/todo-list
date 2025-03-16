@@ -1,25 +1,26 @@
-REST API для управления задачами (TODO-лист)
-Реализовано на Go с использованием fiber и PostgreSQL (pgx)
+REST API для управления задачами (TODO-лист).  
+
+Реализовано на Go с использованием fiber и PostgreSQL (pgx)  
 
 
-Запуск программы.
+Запуск программы.  
 
-1. База данных подключается через переменную окружения 
-DATABASE_URL=postgres://username:password@localhost:5432/postgres
-Где:
-    username — имя пользователя PostgreSQL.
-    password — пароль.
-    localhost:5432 — хост и порт PostgreSQL.
-    postgres — имя базы данных.
+1. База данных подключается через переменную окружения  
+DATABASE_URL=postgres://username:password@localhost:5432/postgres  
+Где:  
+    username — имя пользователя PostgreSQL.  
+    password — пароль.  
+    localhost:5432 — хост и порт PostgreSQL.  
+    postgres — имя базы данных.  
 
-На linux и macOS в терминале:
-export DATABASE_URL="postgres://username:password@localhost:5432/postgres"
+На linux и macOS в терминале:  
+export DATABASE_URL="postgres://username:password@localhost:5432/postgres"  
 
-На windows в командной строке:
-set DATABASE_URL=postgres://username:password@localhost:5432/postgres
+На windows в командной строке:  
+set DATABASE_URL=postgres://username:password@localhost:5432/postgres  
 
-2. Установка зависимостей
-    go get github.com/jackc/pgx/v5
+2. Установка зависимостей  
+    go get github.com/jackc/pgx/v5  
     go get github.com/gofiber/fiber/v2
 
 3. Запуск программы с помощью команды
